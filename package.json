@@ -1,0 +1,24 @@
+{
+  "name": "whatsapp",
+  "version": "1.0.0",
+  "description": "Aplicacion de Whatsapp de escritorio para Linux",
+  "main": "main.js",
+  "scripts": {
+    "postinstall": "install-app-deps",
+    "pack": "build --dir",
+    "dist": "build",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "build": {
+    "appId": "Whatsapp",
+    "category": "com.pvergara.chat"
+  },
+  "author": "pvergara",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "1.4.13",
+    "electron-builder": "19.5.1",
+    "electron-packager": "8.7.1"
+  }
+}
