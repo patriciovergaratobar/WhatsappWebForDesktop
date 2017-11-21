@@ -29,3 +29,7 @@ app.on('ready', () => {
         windowApp = null;
     });
 });
+
+app.on('window-all-closed', () => {
+    app.quit()
+});
