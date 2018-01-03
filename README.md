@@ -14,6 +14,13 @@ $ cd WhatsappWebForDesktop
 
 $ npm install
 
+#Instalar Electron
+$ npm install electron-packager --save-dev
+
+$ npm install electron-packager -g
+
+$ npm install --save-dev electron
+
 # In Linux x64
 $ electron-packager . --overwrite --asar=true --platform=linux --arch=x64
 
